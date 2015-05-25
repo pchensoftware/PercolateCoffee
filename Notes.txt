@@ -14,7 +14,9 @@ Peter Chen's Notes
 
 - I assumed the downloaded data doesn't change often
 
-- I tested in the Simulator running iPhone 6
+- I tested in the Simulator running iPhone 6, portrait and landscape
+
+- Sorry, no app icon or cool animations :/
 
 ====================================================================================================
 Assignment
