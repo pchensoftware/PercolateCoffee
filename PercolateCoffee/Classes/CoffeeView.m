@@ -61,6 +61,7 @@
       self.lastUpdatedLabel.textColor = [UIColor percolateGray];
       [self.contentView addSubview:self.lastUpdatedLabel];
       
+      // Layout scroll view
       self.scrollView.translatesAutoresizingMaskIntoConstraints = NO;
       self.contentView.translatesAutoresizingMaskIntoConstraints = NO;
       [self addConstraintFormat:@"H:|[scroll]|" viewsDict:@{ @"scroll" : self.scrollView }];
@@ -68,6 +69,7 @@
       [self.scrollView addConstraintFormat:@"H:|[content]|" viewsDict:@{ @"content" : self.contentView }];
       [self.scrollView addConstraintFormat:@"V:|[content]|" viewsDict:@{ @"content" : self.contentView }];
       
+      // Layout subviews
       self.nameLabel.translatesAutoresizingMaskIntoConstraints = NO;
       self.descriptionLabel.translatesAutoresizingMaskIntoConstraints = NO;
       self.imageView.translatesAutoresizingMaskIntoConstraints = NO;
