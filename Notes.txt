@@ -1,0 +1,69 @@
+====================================================================================================
+Peter Chen's Notes
+====================================================================================================
+
+- The table cell's disclosure indicator in the design spec doesn't have a consistent vertical position (top, center cell, center text?)
+
+- What's the desired display height of the image? I chose a constant height and variable width.
+
+- After viewing the coffee's details and downloading a full description string, how do you want the
+     selected cell in the coffee list screen displayed? I decided to update the selected cell.
+
+- I noticed a horizontal line below the title in coffee details screen in the design spec.
+     I could have either added the line as an image, a thin UIView, or converted to a table view with 2 cells.
+
+- I assumed the downloaded data doesn't change often
+
+- I tested in the Simulator running iPhone 6
+
+====================================================================================================
+Assignment
+====================================================================================================
+
+SUMMARY
+-------
+- Quality code, not speed
+- Use Autolayout, AFNetworking, iOS 7.1+, Cocoapods
+- Send your api_key as the Authorization HTTP header
+- Optional - use Mantle for object serialization, Reactive Cocoa, offline usable
+
+Instructions
+------------
+
+http://percolate.github.io/coffeeapi/
+
+You can make your own assumptions about any details not mentioned.
+Feel free to email us with any questions and be sure to state your assumptions as part of your submission.
+
+We understand that this project will take a full day or two to develop, and that you have a job, hobbies, and a life.
+Do it in a reasonable amount of time. We want to see how well you can write code not how fast.
+
+To submit your application, please provide us access to a git repo.
+
+Color palette
+-------------
+
+- #F16421 Orange, #AAAAAA Gray, and #666666 Gray-Dark
+
+API
+---
+
+- https://coffeeapi.percolate.com/
+- The API key is WuVbkuUsCXHPx3hsQzus4SE
+
+Required
+--------
+
+- Do all layout using autolayout in code.
+- Network calls must be done using AFNetworking
+- Target iOS 7.1+
+- Install libraries with Cocoapods
+
+Nice-to-haves
+-------------
+
+- Send your api_key as the Authorization HTTP header, not as a GET param
+- Use Mantle for object serialization
+- Make use of Reactive Cocoa
+- Make the app offline usable
+
